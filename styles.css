@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #120323;
+}
+
+h2 {
+  color: #120323;
+}
+
+main img {
+  border: 5px solid #d9043d;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+aside {
+  background-color: #97bf04;
+}
+
+footer {
+  background-color: #d9043d;
+}
