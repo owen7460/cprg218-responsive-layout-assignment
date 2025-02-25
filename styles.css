@@ -6,12 +6,16 @@ header {
   background-color: #120323;
 }
 
+h1 {
+  color: white;
+}
+
 h2 {
   color: #120323;
 }
 
 main img {
-  border: 5px solid #d9043d;
+  border: 3px solid #d9043d;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -23,4 +27,30 @@ aside {
 
 footer {
   background-color: #d9043d;
+}
+
+@media screen and (min-width:768px) {
+  header {
+    display: flex;
+  }
+
+  main {
+    background-color: aqua;
+  }
+
+  main img {
+    max-width: 300px;
+  }
+
+  main figure {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width:1000px) {
+
+  main {
+    background-color: rgb(182, 202, 48);
+  }
 }
