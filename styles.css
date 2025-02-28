@@ -1,25 +1,32 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 header {
   background-color: #120323;
 }
 
+main {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 h1 {
-  color: white;
+  color: #97bf04;
 }
 
 h2 {
   color: #120323;
 }
 
-main img {
+figure img {
   border: 3px solid #d9043d;
   width: 100%;
   height: auto;
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 
 aside {
@@ -33,11 +40,12 @@ footer {
 @media screen and (min-width:768px) {
   header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 
-  main {
-    background-color: aqua;
-  }
+
 
   main img {
     max-width: 300px;
@@ -51,9 +59,7 @@ footer {
 
 @media screen and (min-width:1000px) {
 
-  main {
-    background-color: rgb(182, 202, 48);
-  }
+
 
   #container {
     display: flex;
