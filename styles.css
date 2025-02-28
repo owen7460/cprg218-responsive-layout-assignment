@@ -6,12 +6,17 @@
 }
 
 header {
-  background-color: #120323;
+  background-color: hsl(268, 84%, 7%);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+header img {
+  margin-bottom: 1rem;
 }
 
 main {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 2rem;
 }
 
 h1 {
@@ -20,6 +25,17 @@ h1 {
 
 h2 {
   color: #120323;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 figure img {
@@ -31,10 +47,13 @@ figure img {
 
 aside {
   background-color: #97bf04;
+  padding: 1rem;
 }
 
 footer {
   background-color: #d9043d;
+  color: white;
+  padding: 1rem 2rem 3rem 2rem;
 }
 
 @media screen and (min-width:768px) {
