@@ -8,12 +8,8 @@
 header {
   background-color: hsl(268, 84%, 7%);
   text-align: center;
-  padding-bottom: 2rem;
-}
-
-header img {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 main {
@@ -22,6 +18,7 @@ main {
 
 h1 {
   color: #97bf04;
+  padding: 1rem;
 }
 
 h2 {
@@ -58,6 +55,7 @@ footer {
 }
 
 @media screen and (min-width:768px) {
+
   header {
     display: flex;
     justify-content: center;
@@ -69,6 +67,7 @@ footer {
 
   main img {
     max-width: 300px;
+    max-height: 300px;
   }
 
   main figure {
@@ -79,13 +78,16 @@ footer {
 
 @media screen and (min-width:1000px) {
 
-  /* header img {
-    
-  }; */
+
+  main img {
+    max-width: 300px;
+    max-height: 300px;
+  }
 
   #container {
     display: flex;
   }
+
 
   aside {
     margin-top: 2rem;
